@@ -15,4 +15,4 @@ This document outlines the structure of project located in `src` directory.
 9. validations: Validation logic for forms and data
 10. observers: This directory contains observer patterns or listeners used to monitor and react to changes in application state or external events. Observers are used to implement reactive patterns, ensuring components respond to state changes efficiently
 
-### Components Section {#components-section}
+### Components Section
