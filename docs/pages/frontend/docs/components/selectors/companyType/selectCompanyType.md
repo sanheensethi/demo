@@ -45,5 +45,5 @@ Related Docs:
 
 |Doc|Link|
 |----|----|
-|useCompanyType|[Link](../../../../hooks/useCompanyType.md)|
-|Select|[Link](../../../ui/Select.md)|
+|useCompanyType|[Link](../../../hooks/useCompanyType.md)|
+|Select|[Link](../../ui/Select.md)|
