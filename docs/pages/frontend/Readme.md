@@ -26,9 +26,10 @@
 | [riskAssesContObservable](./docs/observers/riskAssesContObservable.md)      | The application leverages the Observer Pattern to coordinate behavior between components by subscribing to shared data streams, ensuring real-time updates and consistent state across the UI. |
 
 ### 4. 🧱 Pages/Components
-| Component/Pages             | Description                                         |
-|------------------------|-----------------------------------------------------|
-| [TransactionDetails](./docs/pages/TransactionDetails.md) | Transaction Details Page |
+| Component/Pages             | Description                                         | Page/Component |
+|------------------------|-----------------------------------------------------|----|
+| [TransactionDetails](./docs/components/transaction-details.md) | Transaction Details Page | Page |
+| [BottomBar](./docs/components/BottomBar.md) | Bottom Bar Component | Reusable Component |
 
 ### 5. 🪝 Custom Hooks
 | Hook                   | Description                                         |
