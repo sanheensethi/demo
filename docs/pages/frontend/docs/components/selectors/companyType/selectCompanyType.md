@@ -40,3 +40,10 @@
 - **Fetching Data:** `useCompanyType` hook is used to fetch company types from the backend based on the provided country.
 - **Rendering Options:** The options are dynamically generated from the company types returned by the API. Each company type is displayed in the dropdown.
 - **On Change:** When a selection is made, the `onChange` callback is called with the updated value, allowing you to handle the change in the parent component.
+
+Related Docs:
+
+|Doc|Link|
+|----|----|
+|useCompanyType|[Link](../../../../hooks/useCompanyType.md)|
+|Select|[Link](../../../ui/Select.md)|
