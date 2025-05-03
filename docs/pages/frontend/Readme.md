@@ -1,4 +1,4 @@
-# 🧾 Frontend Documentation Booklet
+# 🧾 Frontend Documentation Booklet 
 
 ## 📚 Table of Contents
 
