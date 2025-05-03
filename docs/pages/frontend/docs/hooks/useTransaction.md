@@ -11,7 +11,7 @@ A React hook for managing transaction details data entry, validation, and submis
 - ✅ **Validation System**  
   Integrated validation hooks and error display handling
 - 📴 **Read-Only Modes**  
-  Supports view-only modes via URL parameters
+  Supports view-only modes via URL parameters or transaction status
 - 📬 **Modal Feedback System**  
   Unified message display system for user feedback
 - 🔗 **Routing Integration**  
@@ -188,7 +188,3 @@ sequenceDiagram
 | Read-only mode active | Check URL parameters and transaction status |
 | API errors | Verify network connectivity and auth tokens |
 
-```bash
-# Debug Commands
-localStorage.debug = 'useTransactionData:*';
-```
