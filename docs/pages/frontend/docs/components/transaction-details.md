@@ -51,3 +51,7 @@ function App() {
 |----|----|
 |TransactionForm|[Link]()|
 |useTransactionData|[Link]()|
+|RightSideBar|[Link]()|
+|StepTabs|[Link]()|
+|BottomBar|[Link]()|
+|FloatingMessageCenter|[Link]()|
