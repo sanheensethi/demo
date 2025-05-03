@@ -25,10 +25,10 @@
 | [deligenceObservable](./docs/observers/deligenceObservable.md)              | The Observer Pattern is used across the application to enable components to react and update dynamically in response to data changes |
 | [riskAssesContObservable](./docs/observers/riskAssesContObservable.md)      | The application leverages the Observer Pattern to coordinate behavior between components by subscribing to shared data streams, ensuring real-time updates and consistent state across the UI. |
 
-### 4. 🧱 Components
+### 4. 🧱 Pages
 | Component              | Description                                         |
 |------------------------|-----------------------------------------------------|
-| [TransactionDetails](./docs/components/TransactionDetails.md) | Displays transaction detail using `useTransaction` |
+| [TransactionDetails](./docs/pages/TransactionDetails.md) | Displays transaction detail using `useTransaction` |
 
 ### 5. 🪝 Custom Hooks
 | Hook                   | Description                                         |
