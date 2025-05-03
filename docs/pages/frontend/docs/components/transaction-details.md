@@ -45,3 +45,9 @@ function App() {
   );
 }
 ```
+
+### Related Docs:
+|Doc|Link|
+|----|----|
+|TransactionForm|[Link]()|
+|useTransactionData|[Link]()|
