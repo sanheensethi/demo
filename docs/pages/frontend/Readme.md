@@ -25,18 +25,58 @@
 | [deligenceObservable](./docs/observers/deligenceObservable.md)              | The Observer Pattern is used across the application to enable components to react and update dynamically in response to data changes |
 | [riskAssesContObservable](./docs/observers/riskAssesContObservable.md)      | The application leverages the Observer Pattern to coordinate behavior between components by subscribing to shared data streams, ensuring real-time updates and consistent state across the UI. |
 
-### 4. 🧱 Pages
-| Component              | Description                                         |
+### 4. 🧱 Pages/Components
+| Component/Pages             | Description                                         |
 |------------------------|-----------------------------------------------------|
-| [TransactionDetails](./docs/pages/TransactionDetails.md) | Displays transaction detail using `useTransaction` |
+| [TransactionDetails](./docs/pages/TransactionDetails.md) | Transaction Details Page |
 
 ### 5. 🪝 Custom Hooks
 | Hook                   | Description                                         |
 |------------------------|-----------------------------------------------------|
-| [useTransaction](./docs/hooks/useTransaction.md)        | Fetches transaction data based on ID                 |
+| [useTransaction](./docs/hooks/useTransaction.md)        | Transaction Details Custom Hook                 |
+| [useCountries](./docs/hooks/useCountries.md)        | Fetches country list |                |
+| [useCurrency](./docs/hooks/useCurrency.md)        | Fetches currency list based on country                 |
+| [useCompanyType](./docs/hooks/useCompanyType.md)        | Fetches company type based on country                 |
+| [useExchanges](./docs/hooks/useExchanges.md)        | Fetches exchanges list                |
+| [useRegulatoryBody](./docs/hooks/useRegulatoryBody.md)        | Fetches regulatory body list based on country                 |
+| [useUBO](./docs/hooks/useUBO.md)        |     UBO Handeling           |
 
 
-### 6. 🔁 Flow of Execution
+### 6. Utils
+| Utility                   | Description                                         |
+|------------------------|-----------------------------------------------------|
+| [utils](./docs/utils/utils.md)        | Fetches transaction data based on ID                 |
+| [validation](./docs/utils/validation.md) | Form Validation Utility that validate the form data |
+
+### 7. Reusable UI Components
+| UI Components                   | Description                                         |
+|------------------------|-----------------------------------------------------|
+| [Input](./docs/components/ui/Input.md)        |   Reusable Input               |
+| [Checkbox](./docs/components/ui/Checkbox.md)        |   Reusable Checkbox |
+| [MultiTextInput](./docs/components/ui/MultiTextInput.md)        |   Reusable MultiTextInput |
+| [RadioGroup](./docs/components/ui/RadioGroup.md)        |   Reusable RadioGroup |
+| [Select](./docs/components/ui/Select.md)        |   Reusable Select |
+| [Textarea](./docs/components/ui/Textarea.md)        |   Reusable Textarea |
+| [subHeadWithButton](./docs/components/ui/subHeadWithButton.md)        |   Reusable subHeadWithButton |
+
+### 8. Reusable Selectors
+| Selectors                   | Description                                         |
+|------------------------|-----------------------------------------------------|
+| [Country](./docs/components/selectors/country/selectCountry.md)        |   Reusable Select Country               |
+| [Company Type](./docs/components/selectors/companyType/selectCompanyType)        |   Reusable Select Company Type |
+| [Currency](./docs/components/selectors/currency/selectCurrency.md)        |   Reusable Select Currency |
+
+### 9. Reusable Options
+| Options                   | Description                                         |
+|------------------------|-----------------------------------------------------|
+| [options](./docs/components/options/options.md)        |   Reusable Options (e.g. Yes/No)     |
+
+### 10. Forms
+| Forms                   | Description                                         |
+|------------------------|-----------------------------------------------------|
+| [transactionForm](./docs/components/forms/transaction-form/transactionForm.md)        |   Transaction Form used in Transaction Details Page  |
+
+### 11. 🔁 Flow of Execution
 | Component              | Description                                         |
 |------------------------|-----------------------------------------------------|
 | [TransactionDetails Flow](./docs/flows/TransactionDetailsFlow.md) | Step-by-step lifecycle and execution flow           |
